@@ -1094,6 +1094,10 @@ rmdir --ignore-fail-on-non-empty "${testdir}"
 
 
 %changelog
+* Sun Jun 20 2021 Package Store <kitsune.solar@gmail.com> - 2.32.0-100
+- UPD: Move to Package Store.
+- UPD: License.
+
 * Sun Jun 06 2021 Todd Zullinger <tmz@pobox.com> - 2.32.0-1
 - update to 2.32.0
 - add perl(File::Compare) BuildRequires
