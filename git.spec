@@ -796,7 +796,7 @@ popd > /dev/null
   %{buildroot}%{_datadir}/git-core/contrib/completion/
 
 # Install git-gui .desktop file.
-desktop-file-%{__install} --dir=%{buildroot}%{_datadir}/applications %{SOURCE12}
+desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE12}
 
 # Symlink git-citool to git-gui if they are identical.
 pushd %{buildroot}%{gitexecdir} >/dev/null
