@@ -3,6 +3,7 @@
     <param name="scm">git</param>
     <param name="url">https://github.com/pkgstore/linux-rpm-git.git</param>
     <param name="revision">main</param>
+    <param name="revision">main</param>
     <param name="version">_none_</param>
     <param name="filename">git</param>
     <param name="changesauthor">kitsune.solar@gmail.com</param>
