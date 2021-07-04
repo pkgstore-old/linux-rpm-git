@@ -25,6 +25,13 @@ $ dnf install -y git
 $ dnf upgrade -y git
 ```
 
+## Remove
+
+```
+$ dnf erase -y git
+$ dnf copr remove pkgstore/git
+```
+
 ## How to Build
 
 1. Get source from [src.fedoraproject.org](https://src.fedoraproject.org/rpms/git).
